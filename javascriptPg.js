@@ -1,9 +1,9 @@
 
 const router = {
-    404 : 'All_Pages/error.html',
-    '/home' : 'All_Pages/homePg.html',
-    '/about' : 'All_Pages/aboutPg.html',
-    '/content' : 'All_Pages/contentPg.html'
+    404 : '/error.html',
+    '/home' : '/homePg.html',
+    '/about' : '/aboutPg.html',
+    '/content' : '/contentPg.html'
 };
 
 const addHistory = (url) =>{

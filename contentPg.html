@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>concent Page</title>
+    <style>
+        h1{
+            position: relative;
+            left: 20px;
+            top: 15px;
+            font-size: 28px;
+            text-align: center;
+            font-weight: bold;
+            margin-left: -2rem;
+        }
+
+        .parts{
+            height: 50%;
+            display:grid;
+            /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+            grid-template-columns: repeat(3, 0.2fr); 
+            justify-content: center;
+            align-items: center;
+            margin-left: 5rem;
+            cursor: pointer;
+        }
+        .cards{
+            background-color: skyblue;
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            gap: 1rem;
+        } 
+        span{
+            position: relative;
+            text-align: center;
+            font-size: 19px;
+            top: 24px;
+            left: 8px;
+        }       
+    </style>
 </head>
 <body>
-    <h1>This is the Content Page</h1>
+    <h1>Content</h1>
+    <section class="parts">
+        <div class="cards">
+            <span>Gallary</span>
+        </div>
+
+        <div class="cards">
+            <span>More Info</span>
+        </div>
+
+        <div class="cards">
+            <span>New</span>
+        </div>
+    </section>
 </body>
 </html>
